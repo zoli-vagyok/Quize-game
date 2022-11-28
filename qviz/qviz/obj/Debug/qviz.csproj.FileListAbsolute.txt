@@ -1,0 +1,8 @@
+C:\Users\lufcsik_zoltan\Source\Repos\Quize-game\qviz\qviz\bin\Debug\qviz.exe.config
+C:\Users\lufcsik_zoltan\Source\Repos\Quize-game\qviz\qviz\bin\Debug\qviz.exe
+C:\Users\lufcsik_zoltan\Source\Repos\Quize-game\qviz\qviz\bin\Debug\qviz.pdb
+C:\Users\lufcsik_zoltan\Source\Repos\Quize-game\qviz\qviz\obj\Debug\qviz.csproj.AssemblyReference.cache
+C:\Users\lufcsik_zoltan\Source\Repos\Quize-game\qviz\qviz\obj\Debug\qviz.csproj.SuggestedBindingRedirects.cache
+C:\Users\lufcsik_zoltan\Source\Repos\Quize-game\qviz\qviz\obj\Debug\qviz.csproj.CoreCompileInputs.cache
+C:\Users\lufcsik_zoltan\Source\Repos\Quize-game\qviz\qviz\obj\Debug\qviz.exe
+C:\Users\lufcsik_zoltan\Source\Repos\Quize-game\qviz\qviz\obj\Debug\qviz.pdb
