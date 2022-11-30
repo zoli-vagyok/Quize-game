@@ -50,6 +50,7 @@ namespace qviz
             kerdesbeolvas();
             valasztekbeolvas();
             valaszokbeolvas();
+
             int szamol = 0;
             for (int i = 0; i < kerdeslist.Count(); i++)
             {
