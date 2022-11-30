@@ -40,30 +40,17 @@ namespace qviz
             StreamReader valaszokbe = new StreamReader("valaszok.txt");
             while (!valaszokbe.EndOfStream)
             {
-                valaszteklist.Add(valaszokbe.ReadLine());
+                valaszoklist.Add(valaszokbe.ReadLine());
             }
             valaszokbe.Close();
             return valaszoklist.Count();
-        }
-        static int szamol()
-        {
-            int szamol = 0;
-            for (int i = 0; i < kerdeslist.Count(); i++)
-            {
-                szamol++;
-            }
-            return szamol;           
-        }
-        static int kesz()
-        { 
-            if (szamol == kerdeslist.Count())
-            {
-
-            }
-            return vege;
-        }
+        }           
         static void Main(string[] args)
         {
+            kerdesbeolvas();
+            valasztekbeolvas();
+            valaszokbeolvas();
+            int szamol = 0;
             for (int i = 0; i < kerdeslist.Count(); i++)
             {
                 Console.WriteLine(kerdeslist[i]);
@@ -83,6 +70,10 @@ namespace qviz
                 {
                     Console.WriteLine("Rossz a válasz, kezd előről");
                 }
+            }
+             if (szamol == kerdeslist.Count)
+            {
+                Console.WriteLine("Minden kérdésre helyesen válaszolt, vége a játéknak");
             }
             Console.ReadKey();
         }
