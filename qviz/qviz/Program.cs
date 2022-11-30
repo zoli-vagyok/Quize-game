@@ -55,7 +55,7 @@ namespace qviz
             {
                 Console.WriteLine(kerdeslist[i]);
                 Console.WriteLine(valaszteklist[i]);
-                Console.WriteLine("Add meg a válasz betüjelét");
+                Console.Write("Add meg a válasz betüjelét:");
                 string valasz = Console.ReadLine();
 
                 while (valasz != "a" && valasz != "b" && valasz != "c" && valasz != "d")
@@ -63,7 +63,7 @@ namespace qviz
                     Console.WriteLine("a, b, c, vagy d-t írj óda!!");
                     Console.WriteLine(kerdeslist[i]);
                     Console.WriteLine(valaszteklist[i]);
-                    Console.WriteLine("Add meg a válasz betüjelét");
+                    Console.Write("Add meg a válasz betüjelét:");
                     valasz = Console.ReadLine();
                 }
                 if (valasz != valaszoklist[i])
