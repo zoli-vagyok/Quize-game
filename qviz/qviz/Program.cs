@@ -70,10 +70,10 @@ namespace qviz
                 {
                     Console.WriteLine("Rossz a válasz, kezd előről");
                 }
-            }
-             if (szamol == kerdeslist.Count)
-            {
-                Console.WriteLine("Minden kérdésre helyesen válaszolt, vége a játéknak");
+                if (szamol == kerdeslist.Count)
+                {
+                    Console.WriteLine("Minden kérdésre helyesen válaszolt, vége a játéknak");
+                }
             }
             Console.ReadKey();
         }
