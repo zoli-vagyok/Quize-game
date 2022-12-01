@@ -7,3 +7,4 @@ Magyarország hány százaléka termőterület?:
 Mi az RS-09 NDK-ás gyártású gép beceneve?:
 Egy felmérés szerint a Zetor melyik gépet győzte le?:
 Hány LE van egy átlag mezőgazdasági gépben?: 
+Melyik ország gyárja a JCB-t?:
